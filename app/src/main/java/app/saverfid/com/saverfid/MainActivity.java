@@ -19,6 +19,12 @@ public class MainActivity extends AppCompatActivity {
         myRef.child("dato").setValue("Estefania es diseñadora.");
 
 
+        for(int i = 10; i<15;i++){
+            myRef.child("Salon").child(String.valueOf(i)).setValue(new RoomModel(i, "Leslie "+i));
+        }
+
+    
+
 
 
     }
