@@ -4,31 +4,52 @@ package app.saverfid.com.saverfid;
  * Created by Daniel on 21/06/16.
  */
 public class RoomModel {
-    private int id;
-    private String name;
 
+    private int idSalon;
+    private String RFID;
+    private int estatus;
+    private String nombre;
 
     public RoomModel() {
     }
 
-    public RoomModel(int id, String name) {
-        this.id = id;
-        this.name = name;
+
+    public RoomModel(int idSalon, String RFID, int estatus, String nombre) {
+        this.idSalon = idSalon;
+        this.RFID = RFID;
+        this.estatus = estatus;
+        this.nombre = nombre;
     }
 
-    public int getId() {
-        return id;
+    public int getIdSalon() {
+        return idSalon;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setIdSalon(int idSalon) {
+        this.idSalon = idSalon;
     }
 
-    public String getName() {
-        return name;
+    public String getRFID() {
+        return RFID;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setRFID(String RFID) {
+        this.RFID = RFID;
+    }
+
+    public int getEstatus() {
+        return estatus;
+    }
+
+    public void setEstatus(int estatus) {
+        this.estatus = estatus;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 }
