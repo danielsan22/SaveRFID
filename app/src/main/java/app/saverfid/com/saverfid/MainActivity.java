@@ -1,8 +1,11 @@
 package app.saverfid.com.saverfid;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -35,6 +38,15 @@ public class MainActivity extends AppCompatActivity {
 
         listView = (ListView)findViewById(R.id.listView);
 
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+                Intent intent = new Intent(MainActivity.this, DetailedActivity.class);
+                intent.putExtra("RoomModel", (RoomModel)listView.getAdapter().getItem(i));
+                startActivity(intent);
+            }
+        });
 
 
 

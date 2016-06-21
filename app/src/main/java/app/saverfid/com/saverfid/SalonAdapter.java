@@ -26,6 +26,10 @@ public class SalonAdapter extends BaseAdapter {
         this.inflater = context.getLayoutInflater();
     }
 
+    public List<RoomModel> getRoomModelList() {
+        return roomModelList;
+    }
+
     @Override
     public int getCount() {
         return roomModelList.size();
