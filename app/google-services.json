@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "368560250668",
+    "firebase_url": "https://saverfid-b624e.firebaseio.com",
+    "project_id": "saverfid-b624e",
+    "storage_bucket": "saverfid-b624e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368560250668:android:8709cf7f3f77368c",
+        "android_client_info": {
+          "package_name": "app.saverfid.com.saverfid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368560250668-0kvm4n5f7sg82c4j2i9c410uoiu9c0f6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.saverfid.com.saverfid",
+            "certificate_hash": "527E32566593E368EC018F1E6C0B2E22CB95B117"
+          }
+        },
+        {
+          "client_id": "368560250668-6gjf237p4lgvocp9esavlri7qnfsvl2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe0lQPgMVulTmhjrooRdKfmLadhafpCRw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368560250668-6gjf237p4lgvocp9esavlri7qnfsvl2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
